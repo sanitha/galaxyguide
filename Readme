@@ -1,0 +1,31 @@
+GalaxyGuide is a solution for Merchant's Guide to the Galaxy
+
+This is Gem named 'GalaxyGuide' created by Sanitha (Not published) on 22nd August 2018
+
+Installed the gem using 
+$ gem install ./galaxy_guide-1.0.0.gem
+
+Used Ruby version: ruby 2.3.0p0 &
+Rails version: Rails 4.2.3
+
+
+Instructions to run this application:
+
+Unzip the galaxy_guide.zip file using command:
+
+Pre-requisites:
+1. Use Ruby version > 2
+2. Use Linux or Mac system
+
+  $ unzip galaxy_guide.zip -d DIR/
+
+Chage Directory to galaxy_guide
+
+Use the following  command to print the output:
+   $ irb -Ilib ./bin/galaxy_guide 'tmp/test_input.txt' 
+
+Unit Tests are added for this Gem
+
+Run tests using command:
+
+$ rake test
